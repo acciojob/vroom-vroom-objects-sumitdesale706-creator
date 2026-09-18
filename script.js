@@ -17,6 +17,8 @@ SportsCar.prototype.getTopSpeed = function(){
 		  return this.topSpeed;
 }
 
+SportsCar.prototype.__proto__ = Car.prototype; 
+
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
